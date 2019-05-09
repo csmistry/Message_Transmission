@@ -15,7 +15,7 @@ Example Tranmission:
 
 - Transmit the message "Hello, this is Bob!"
 
-Input:            
+Input:        
 2 is <br>
 -1 <br>
 0 Hello, <br>
@@ -27,7 +27,7 @@ Input:
 -1 <br>
 -2 <br>
 
-Output:
+Output: <br>
 ... ... is ??? <br>
 Hello, ... is ??? <br>
 Hello, ... is ... <br>
