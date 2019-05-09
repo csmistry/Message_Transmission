@@ -16,22 +16,22 @@ Example Tranmission:
 - Transmit the message "Hello, this is Bob!"
 
 Input:            
-2 is
--1
-0 Hello,
-4 EOT
--1
-3 Bob!
--1
-1 this 
--1
--2
+2 is <br>
+-1 <br>
+0 Hello, <br>
+4 EOT <br>
+-1 <br>
+3 Bob! <br>
+-1 <br>
+1 this <br>
+-1 <br>
+-2 <br>
 
 Output:
-... ... is ???
-Hello, ... is ???
-Hello, ... is ...
-Hello, ... is Bob!
-Hello, this is Bob!
+... ... is ??? <br>
+Hello, ... is ??? <br>
+Hello, ... is ... <br>
+Hello, ... is Bob! <br>
+Hello, this is Bob!<br>
 
 
