@@ -11,7 +11,7 @@
 
 
 int main();
-//Node class initializes the needed parameters for a node
+
 Node::Node(unsigned int id, std::string frag){
 	 identifier=id;
 	 fragment=frag;
@@ -21,7 +21,7 @@ std::string Node::get_fragment(){
 return fragment;
 }
 
-//return address of next node
+
 Node *Node::get_next(){
 	return p_next;
 }
@@ -42,13 +42,13 @@ Message::~Message(){
 }
 void Message::insert(unsigned int id, std::string fragment){
 	if(head==nullptr){
-		//If the list is empty set p_next of new node equal to head and set head equal to the new node
+	
 		Node *p_new_node= new Node(id, fragment);
 		p_new_node->p_next =head;
 		head= p_new_node;
 	}else{
 		Node *p_new_node= new Node(id, fragment);
-		//If list is not empty, first compare the identifier values and arrange them in ascending order
+		
 		if(p_new_node->identifier < head->identifier){
 			p_new_node->p_next= head;
 			head= p_new_node;
@@ -67,7 +67,7 @@ void Message::insert(unsigned int id, std::string fragment){
 	}
 }
 
-// Print function to print received messages
+
 void Message::print_message(){
 	unsigned int count{0};
 	Node *p_current{head};
